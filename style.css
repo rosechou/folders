@@ -1,0 +1,248 @@
+body {
+  font-family: serif,sans-serif,cursive,fantasy,monospace;
+}
+
+ul {
+    list-style: square inside url("sqpurple.gif");
+}
+
+
+#profile {
+  width: 30%;
+  height: auto;
+  border-radius: 10%;
+  margin-top: -8%;
+  margin-left: 10%;
+  box-shadow: 8px 5px 5px #b3d9ff;
+  border-style: solid;
+  border-color:#4dd2ff;
+}
+#profile:hover {
+  width: 50%;
+  height: auto;
+}
+
+#cover {
+  background-repeat: no-repeat;        
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  z-index: -999;
+  position: fixed;
+  opacity: 0.5;
+}
+
+.big-word {
+  font-family:fantasy;
+  margin-bottom: 10%;
+  font-size: 8vw;
+  color: #005c99;
+}
+.big-word:hover {
+  color: #0099ff;
+}
+
+.title-name {
+  margin-top: -10%;
+  margin-left: 48%;
+}
+
+.related-title {
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+
+.content {
+  margin: 10px auto;
+  margin-top: 25%;
+  padding: 10px;
+  width: 75%;
+  background-color: #e6ecff;
+  border-radius: 40px;
+  box-shadow: 0 0 50px #0066cc;
+  /*box-shadow: 0px 0px 15px rgba(200, 200, 200, 0.8);*/
+  padding-bottom: 5%;
+}
+.content.section2,.content.section3,.content.section4 {
+  margin-top: 5%;
+}
+
+.content.section4 {
+  margin-bottom: 10%;
+}
+
+.text-content {
+  margin-left: 5%;
+  font-size: 1.5vw;
+}
+
+h2.words {
+  margin-left: 4%;
+  color: #003366;
+  font-weight: bolder;
+}
+h2.words:hover {
+  margin-left: 3%;
+  color: #4da6ff;
+}
+
+h2.words.limit {
+    color:  #9900cc;
+    /*color: rgba(255, 0, 0, 0.5)*/
+}
+h2.words.limit:hover {
+    color: #000000;
+  /*color: rgba(255, 0, 0, 1);*/
+}
+
+label {
+  padding: 2%;
+  font-size: 2vw;
+  font-weight: bolder;
+  border-radius: 0px 200px 0px 200px;
+    /*border-radius: 80px;*/
+  /*color: rgba(0, 0, 0, 0.8)*/
+    color: #006080;
+  /*box-shadow: 1px 1px 5px rgba(200, 200, 200, 0.8);*/
+  box-shadow: 0px 0px 10px #000000
+ /*rgba(200, 200, 200, 0.8)*/;
+  border-style: solid;
+  border-width: 0px;
+  /*border-color:     rgba(100, 100, 100, 0.5)*/
+  border-color: #ff1ab3;
+}
+
+label#name-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: #0066cc;
+}
+
+label#birth-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: #0033cc;
+}
+
+label#grade-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: #0000ff;
+}
+
+label#hobby-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: #3333ff;
+}
+
+label#skill-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: #0066ff;
+}
+
+label#photo-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: #3366ff;
+}
+
+label#video-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: #3333cc;
+}
+
+label#fb-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(59, 89, 152, 1);
+}
+
+/*label#fb-label:hover {
+    background:url(Facebook-Icon.jpg);
+    padding: 2%;
+    width: 1px;
+    height: 1px;
+}*/
+
+label#yt-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(179, 18, 23, 1);
+}
+
+label#skype-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(170, 130, 20, 1);
+}
+
+label#phone-label:hover {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(170, 130, 20, 1);
+}
+
+label#email-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(170, 20, 130, 1);
+}
+
+label#content-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(120, 120, 120, 0.6);
+}
+
+label#html-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 87, 51, 1);
+}
+
+label#css-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 87, 255, 0.5);
+}
+
+label#limit-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(200, 0, 0, 1);
+}
+
+.photo {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  overflow: auto;
+}
+
+
+/*.pic{
+    background: "http://i.imgur.com/mEUSOZd.jpg"
+}
+.text{
+    background: #FFF;
+    opacity: 0;
+}
+.pic:hover.text
+{
+    opacity: 0.6
+    text-align:justify;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:"Times New Roman", Times, serif; padding:30px; 
+}*/
+.work-photo {
+  height: 20vh;
+}
+.work-photo:hover {
+  height: 40vh;
+}
+
+.video {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 3%;
+  width: 90%;
+  height: 50vw;
+}
+
+.words.link {
+  color: rgba(0, 0, 255, 0.5);
+}
+.words.link:hover {
+  color: rgba(0, 0, 255, 1);
+}
