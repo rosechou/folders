@@ -1,0 +1,142 @@
+body {
+    background-image: url("4.jpg");
+	background-size:cover;
+	cursor: crosshair;
+}
+
+#intro{
+	font-family:Microsoft JhengHei;
+	font-size:50px;
+}
+p {
+	margin-left: 3%;
+    font-size: 35px;
+	font-weight: 900;
+	font-variant: small-caps;
+	text-align: center;
+	color:#e6f2ff;
+	font-family:Microsoft JhengHei;
+}
+
+p:hover {
+  margin-left: 3%;
+  color: #8cb3d9;
+}
+
+#content{
+    max-width: 1000px;
+    margin: auto;
+    border: 3px solid #d2d2e0;
+ padding: 1em 4%;
+ background: rgba(200,200,255,0.5);
+box-shadow: 0px 0px 15px rgba(200, 200, 200, 0.8);
+}
+
+#profile {
+  width: 25%;
+  height: auto;
+  border-radius: 100%;
+  margin-top: -10%;
+  margin-left: 6%;
+  box-shadow: 0px 0px 15px rgba(200, 200, 200, 0.8);
+}
+
+#profile:hover{
+	width:90%
+}
+
+#name{
+  margin-top:-12%;
+  margin-bottom: 5%;
+  font-size:70px;
+  color: #001f33;
+}
+#name:hover{
+  color:#8cb3d9;
+}
+
+label{
+  padding: 1%;
+  font-size: 25px;
+  font-weight: bold;
+   border-radius: 5px;
+  color: #001a33;
+  box-shadow: 1px 1px 5px rgba(200, 200, 200, 0.8);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eee6ff;
+  background-color:#eee6ff;
+  font-family:Comic Sans MS;
+  cursor: crosshair;
+  }
+  
+#a{
+	margin-left:44%;
+}
+#b{
+	margin-left:41%;
+}
+#c{
+	margin-left:45%;
+}
+#d{
+	margin-left:42%;
+}
+#e{
+	margin-left:42%;
+}
+#f{
+	margin-left:38%;
+
+}
+label:hover {
+  color: rgba(255, 255, 255,0.5);
+  background-color: rgba(255,255,255,0.2);
+}
+
+h2{
+	font-family:Microsoft JhengHei;
+	color:#001a1a;
+	font-weight: bold;
+	  font-size: 25px;
+	  text-align: center;
+}
+
+h2:hover{
+  color: #8cb3d9;
+}
+
+ul{
+	margin-left:43%;
+}
+
+li{
+	font-family:Microsoft JhengHei;
+	color:#001a1a;
+	font-weight: bold;
+	  font-size: 25px;
+}
+li:hover{
+  color: #8cb3d9;
+}
+a:link {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #001a1a;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #8cb3d9;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#lamigo{
+	margin-top:5%;
+	margin-left:15%;
+	margin-bottom:5%;
+}
